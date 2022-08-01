@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
 export default function BlogItem({ post }) {
   const redirectToHashnode = () => {
-    window.open("https://blog.danielcranney.com/" + post.slug, "_blank");
+    window.open("https://blog.layer6training.com/" + post.slug, "_blank");
   };
 
   const getDateAdded = () => {
@@ -16,7 +17,7 @@ export default function BlogItem({ post }) {
 
   return (
     <div
-      className="flex flex-col rounded-sm bg-light/10 dark:bg-mid p-3.5 gap-y-3.5 group border-2 dark:border-mid dark:hover:border-brand hover:border-brand border-transparent cursor-pointer transition-all duration-150 ease-in-out relative"
+      className="flex flex-col rounded-sm bg-light/10 dark:bg-dark p-3.5 gap-y-3.5 group border-2 \ dark:hover:border-brand hover:border-brand border-transparent cursor-pointer transition-all duration-150 ease-in-out relative"
       onClick={redirectToHashnode}
     >
       <div className="w-auto">

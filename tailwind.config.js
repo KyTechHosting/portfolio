@@ -41,11 +41,11 @@ module.exports = {
       },
       colors: {
         soft: "#f0f0f0",
-        brand: "#7364d0",
+        brand: "#4040b2",
         brandAlt: "#867dd8",
-        light: "#a2a1a6",
-        mid: "#282833",
-        dark: "#22222b",
+        light: "#FFFFFF",
+        mid: "#B8BFC6",
+        dark: "#181818",
         darker: "#1d1d23",
       },
       backgroundImage: (theme) => ({

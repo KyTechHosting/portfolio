@@ -26,7 +26,7 @@ const Icon = ({
       </div>
       {title ? (
         <p
-          className={`${titleMargins} ${titleSize} font-semibold tracking-wide opacity-100 ${textTransform} text-center`}
+          className={`${titleMargins} ${titleSize} text-dark font-semibold tracking-wide opacity-100 ${textTransform} text-center`}
         >
           {title}
         </p>

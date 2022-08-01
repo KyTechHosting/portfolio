@@ -11,6 +11,7 @@ import Css from "../components/icons/Css";
 import Javascript from "../components/icons/Javascript";
 import Tailwind from "../components/icons/Tailwind";
 import Bootstrap from "../components/icons/Bootstrap";
+import Supabase from "../components/icons/Supabase";
 import Sass from "../components/icons/Sass";
 import ReactJs from "../components/icons/ReactJs";
 import NextJs from "../components/icons/NextJs";
@@ -21,6 +22,7 @@ import Photoshop from "../components/icons/Photoshop";
 import Illustrator from "../components/icons/Illustrator";
 import AfterEffects from "../components/icons/AfterEffects";
 import AdobeXd from "../components/icons/AdobeXd";
+import Webflow from "../components/icons/Webflow";
 // Project Card
 import ProjectCard from "../components/ProjectCard";
 import GitHubProfile from "../components/icons/GitHubProfile";
@@ -230,10 +232,10 @@ export default function Home({ publications }) {
         }`}
       >
         <Head>
-          <title>Daniel Cranney | Frontend Developer & Designer</title>
+          <title>Kyle McCracken | Web Dev & Dev Advocote</title>
           <meta
             name="description"
-            content="The portfolio of frontend developer and designer, Daniel Cranney"
+            content="The portfolio of Web Dev and Dev Advocote, Kyle McCracken."
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -349,7 +351,7 @@ export default function Home({ publications }) {
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
                   <a
-                    href={`mailto:danielcranney@gmail.com`}
+                    href={`mailto:kyle@kytech.ca`}
                     className="text-lg btn-brand btn-lg group"
                   >
                     Hire me
@@ -429,7 +431,7 @@ export default function Home({ publications }) {
             {/* Text */}
             <div className="flex items-center ml-4">
               <p className="text-lg font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
-                Daniel Cranney
+                Kyle McCracken
               </p>
             </div>
             {/* Nav */}
@@ -529,7 +531,7 @@ export default function Home({ publications }) {
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
                   <a
-                    href={`mailto:danielcranney@gmail.com`}
+                    href={`mailto:kyle@kytech.ca`}
                     className="btn-brand btn-md group"
                   >
                     Hire me
@@ -594,27 +596,27 @@ export default function Home({ publications }) {
                 </span>
 
                 <h1 className="mb-4 text-5xl md:text-7xl dark:text-white text-dark">
-                  Daniel Cranney
+                  Kyle McCracken
                 </h1>
-                <h2 className="mb-4 text-3xl md:text-4xl dark:text-light text-mid">
+                <h2 className="mb-4 text-3xl md:text-4xl dark:text-light text-slate-600">
                   <ReactTypingEffect
                     typingDelay={200}
                     speed={30}
                     eraseSpeed={30}
                     eraseDelay={1500}
                     text={[
-                      `Frontend Developer`,
-                      `Designer`,
-                      `Teacher`,
-                      `Cat Dad`,
+                      `Frontend Developer 💻`,
+                      `Dev Advocate 📢`,
+                      `Educator 🎓`,
+                      `Dog Dad 🐕`,
                     ]}
                   />
                 </h2>
-                <p className="w-4/5 text-xl md:w-full">
-                  I design and build websites that look good, and work well.
+                <p className="w-4/5 text-xl text-slate-400 md:w-full">
+                  I like to build solutions that exceed the expectations! 🚀
                 </p>
                 <button
-                  className="mt-4 btn-brand btn-lg group"
+                  className="mt-4 btn-brand btn-lg rounded-lg group"
                   onClick={() => {
                     scrollTo(myWorkRef.current);
                   }}
@@ -627,19 +629,19 @@ export default function Home({ publications }) {
 
           {/* About */}
           <section
-            className="flex flex-col w-full px-0 md:px-20 lg:px-24 py-28 section"
+            className="flex flex-col w-full text-slate-900 px-0 md:px-20 lg:px-24 py-28 section"
             id="about"
             ref={aboutRef}
           >
             <div className="flex flex-col">
-              <h2 className="text-5xl">About</h2>
+              <h2 className="text-5xl">About Me</h2>
               <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                    Hello! I&apos;m Dan and I&apos;m a frontend developer,
-                    designer and teacher from Bristol, England.
+                    Hello! I&apos;m Kyle and I&apos;m a frontend developer,
+                    dev advocate and educator from Toronto, Canada 🇨🇦.
                   </p>
                   <p className="text-lg">
                     After building my first website aged thirteen, I knew I
@@ -678,7 +680,7 @@ export default function Home({ publications }) {
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
-                    src="/headshot-with-frame-2.jpg"
+                    src="/headshot-avatar.png"
                     className="overflow-hidden rounded-md"
                     width={880}
                     height={880}
@@ -734,27 +736,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Sass */}
+              {/* Supabase */}
               <Icon
-                IconType={Sass}
-                title="Sass"
-                columnSizing={"w-1/4 sm:w-1/4 lg:w-1/8"}
-                width={"w-16 sm:w-20"}
-                height={"h-16 sm:h-20"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Bootstrap */}
-              <Icon
-                IconType={Bootstrap}
-                title="Bootstrap"
+                IconType={Supabase}
+                title="Supabase"
                 columnSizing={"w-1/4 sm:w-1/4 lg:w-1/8"}
                 width={"w-16 sm:w-20"}
                 height={"h-16 sm:h-20"}
@@ -887,44 +872,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Illustrator */}
-              <Icon
-                IconType={Illustrator}
-                title="Illustrator"
-                columnSizing={"w-1/4 sm:w-1/4 lg:w-1/8"}
-                width={"w-16 sm:w-20"}
-                height={"h-16 sm:h-20"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
               {/* After Effects */}
               <Icon
                 IconType={AfterEffects}
                 title="After Effects"
-                columnSizing={"w-1/4 sm:w-1/4 lg:w-1/8"}
-                width={"w-16 sm:w-20"}
-                height={"h-16 sm:h-20"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Adobe XD */}
-              <Icon
-                IconType={AdobeXd}
-                title="Adobe XD"
                 columnSizing={"w-1/4 sm:w-1/4 lg:w-1/8"}
                 width={"w-16 sm:w-20"}
                 height={"h-16 sm:h-20"}
@@ -954,6 +905,23 @@ export default function Home({ publications }) {
                 textTransform={"normal-case"}
                 fixedHeight={"h-28"}
               />
+
+              {/* Webflow */}
+              <Icon
+                IconType={Webflow}
+                title="Webflow"
+                columnSizing={"w-1/4 sm:w-1/4 lg:w-1/8"}
+                width={"w-16 sm:w-20"}
+                height={"h-16 sm:h-20"}
+                padding={"p-0"}
+                flexDirection={"flex-col"}
+                titleMargins={"mt-4"}
+                titleSize={"text-sm sm:text-sm"}
+                marginBottom={"mb-4"}
+                marginRight={"mr-0"}
+                textTransform={"normal-case"}
+                fixedHeight={"h-28"}
+              />
             </div>
           </section>
 
@@ -971,15 +939,16 @@ export default function Home({ publications }) {
             <div className="flex flex-col w-full mb-12">
               {/* Project One */}
               <FeaturedProjectCard
-                title={"Reportr"}
-                status={"Just launched"}
-                description={`Write reports for your students in 60 seconds or less`}
+                className={"bg-white"}
+                title={"Layer6 Training"}
+                status={"Coming Soon"}
+                description={`Online training platform for to help people learn and break into the Tech industry.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/reportr.png"}
-                liveLink={"https://reportr.io/"}
+                imgSrc={"/projects/layer6training.png"}
+                liveLink={"https://layer6training.com"}
                 repoLink={null}
                 stack={
                   <>
@@ -1016,8 +985,8 @@ export default function Home({ publications }) {
                     />
 
                     <Icon
-                      IconType={ReactJs}
-                      title="React"
+                      IconType={Supabase}
+                      title="Supabase"
                       columnSizing={"w-auto"}
                       width={"w-6"}
                       height={"h-6"}
@@ -1257,7 +1226,7 @@ export default function Home({ publications }) {
                 <p className="text-lg">
                   Email me at{" "}
                   <Link href="mailto:danielcranney@gmail.com">
-                    <a className="underline-link">danielcranney@gmail.com</a>
+                    <a className="underline-link">kyle@kytech.ca</a>
                   </Link>{" "}
                   and let&apos;s talk about your project!
                 </p>
@@ -1297,7 +1266,7 @@ export default function Home({ publications }) {
 
             <div className="flex flex-col items-start md:flex-row">
               <p className="w-auto mb-4 md:mb-0">
-                &copy; 2022 - Designed and built by Daniel Cranney
+                &copy; 2022 - Designed and built by Kyle McCracken
               </p>
 
               <div className="flex md:hidden">
@@ -1583,11 +1552,11 @@ export async function getServerSideProps(context) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: "32ab9fe7-0331-4efc-bdb8-5a3e0bfdd9b9",
+      Authorization: "b4f2da9e-0384-4742-9000-b62f0001b327",
     },
     body: JSON.stringify({
       query:
-        'query {user(username: "danielcranney") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
+        'query {user(username: "KyTech") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
     }),
   });
   const publications = await res.json();
