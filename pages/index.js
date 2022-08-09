@@ -613,7 +613,7 @@ export default function Home({ publications }) {
                   />
                 </h2>
                 <p className="w-4/5 text-xl text-slate-400 md:w-full">
-                  I like to build solutions that exceed the expectations! 🚀
+                  I like to build solutions that exceed expectations! 🚀
                 </p>
                 <button
                   className="mt-4 btn-brand btn-lg rounded-lg group"
@@ -684,7 +684,7 @@ export default function Home({ publications }) {
                     className="overflow-hidden rounded-md"
                     width={880}
                     height={880}
-                    alt={"Daniel Cranney headshot"}
+                    alt={"Kyle McCracken's Headshot"}
                   />
                 </div>
               </div>
@@ -945,29 +945,14 @@ export default function Home({ publications }) {
                 description={`Online training platform for to help people learn and break into the Tech industry.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
-                imgWidth={"1366"}
-                imgHeight={"666"}
+                layout="responsive"
+                imgWidth={"900"}
+                imgHeight={"600"}
                 imgSrc={"/projects/layer6training.png"}
                 liveLink={"https://layer6training.com"}
                 repoLink={null}
                 stack={
                   <>
-                    <Icon
-                      IconType={Html}
-                      title="HTML"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
-
                     <Icon
                       IconType={Tailwind}
                       title="Tailwind"
@@ -1100,15 +1085,15 @@ export default function Home({ publications }) {
               />
               {/* Project Three */}
               <FeaturedProjectCard
-                title={"ProfileMe.dev"}
-                status={"Just launched"}
-                description={`Create an awesome GitHub profile in minutes.`}
+                title={"Hosting Dashboard Demo"}
+                status={"Try it out!"}
+                description={`Created a working MVP for a hosting dashboard.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/profileme.png"}
-                liveLink={"https://profileme.dev"}
+                liveLink={"https://hosting.kytech.ca/"}
                 repoLink={"https://github.com/danielcranney/profileme.dev"}
                 stack={
                   <>
@@ -1180,19 +1165,19 @@ export default function Home({ publications }) {
               />
             </div>
 
-            {/* Other Projects header */}
-            <h2 className="text-4xl text-center">Other Projects</h2>
+           {/* Other Projects header */}
+            {/* <h2 className="text-4xl text-center">Other Projects</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 mx-auto border-0"></hr>
             <p className="mb-16 text-lg text-center">
               Check out some of the projects I&apos;ve been a part of...
-            </p>
+            </p> */}
 
             {/* Other Projects Container */}
-            <div className="grid grid-flow-row grid-rows-2 gap-4 grid-col-1 lg:grid-cols-3">
+            {/* <div className="grid grid-flow-row grid-rows-2 gap-4 grid-col-1 lg:grid-cols-3">
               {projects.map(function (project, i) {
                 return <ProjectCard project={project} key={i} />;
               })}
-            </div>
+            </div> */}
           </section>
 
           {/* Blog */}
