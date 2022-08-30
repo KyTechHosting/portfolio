@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import ReactTypingEffect from "react-typing-effect";
+import headshot from "../public/headshot-avatar.png";
 
 import Icon from "../components/Icon";
 // Icons
@@ -672,7 +673,7 @@ export default function Home({ publications }) {
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
-                    src="/headshot-avatar.png"
+                    src={headshot}
                     className="overflow-hidden rounded-md"
                     width={880}
                     height={880}
