@@ -640,20 +640,20 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5 ">
                   <p className="text-lg text-slate-600">
-                    Hello! I&apos;m Kyle and I&apos;m a Developer Advocate, and
-                    educator from Toronto, Canada 🇨🇦.
+                    Hello! 👋 I&apos;m Kyle and I&apos;m a Developer Advocate,
+                    and educator from Toronto, Canada 🇨🇦.
                   </p>
                   <p className="text-lg text-slate-600">
                     I have always found my sweet spot lies between the technical
-                    and the non-technical pillars within a company. Briding the
+                    and the non-technical pillars within a company. Bridging the
                     gap between these two traditional roles has been a passion
                     of mine.
                   </p>
                   <p className="text-lg text-slate-600">
-                    After graduating University with a Media degree, I began
-                    freelancing as a designer, creating graphics, video content
-                    and websites for small businesses, using content management
-                    systems like Wordpress, Joomla and Squarespace.
+                    After graduating University with a Business degree
+                    specialized in Technology, I began freelancing as a
+                    designer, creating graphics, video content and websites for
+                    small businesses, using a wide range of platforms.
                   </p>
                   <p className="text-lg text-slate-600">
                     In recent years, I&apos;ve been focused on programming,
@@ -661,18 +661,9 @@ export default function Home({ publications }) {
                     projects that solve real-world problems.
                   </p>
                   <p className="text-lg text-slate-600">
-                    Alongside my design and development work, I run a BA Media
-                    Production degree course and a corporate video production
-                    company called{" "}
-                    <a
-                      href="http://www.wearespotlight.co.uk"
-                      target="_blank"
-                      className="underline-link"
-                      rel="noreferrer"
-                    >
-                      Spotlight Media
-                    </a>
-                    , so I like to keep busy!
+                    Alongside my design and development work, I run the
+                    Technology department for a multi-national engineering firm
+                    based in Canada! So I like to keep busy! 😎
                   </p>
                   <p className="text-lg text-slate-600">
                     Take a look at my work below to see what I&apos;m working
@@ -1006,21 +997,21 @@ export default function Home({ publications }) {
               />
               {/* Project Two */}
               <FeaturedProjectCard
-                title={"ColorHub"}
+                title={"LMS Dashboard"}
                 status={"Currently working on"}
-                description={`Create a custom colour palette for your next project. Preview your palette on different layouts and then export the CSS, SCSS or Tailwind code.`}
+                description={`Creating a dynamic login system for a LMS - Learner Managemner System. This will be used for students to login and manage their courses.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/colorhub.png"}
-                liveLink={"https://colorhub.app/"}
+                imgSrc={"/projects/clicktolearn.png"}
+                liveLink={"https://clicktolearn-nextjs.vercel.app/"}
                 repoLink={null}
                 stack={
                   <>
                     <Icon
-                      IconType={Html}
-                      title="HTML"
+                      IconType={Supabase}
+                      title="Supabase"
                       columnSizing={"w-auto"}
                       width={"w-6"}
                       height={"h-6"}
@@ -1051,8 +1042,8 @@ export default function Home({ publications }) {
                     />
 
                     <Icon
-                      IconType={ReactJs}
-                      title="React"
+                      IconType={NextJs}
+                      title="NextJS"
                       columnSizing={"w-auto"}
                       width={"w-6"}
                       height={"h-6"}
@@ -1067,8 +1058,8 @@ export default function Home({ publications }) {
                     />
 
                     <Icon
-                      IconType={NextJs}
-                      title="Next"
+                      IconType={Figma}
+                      title="Figma"
                       columnSizing={"w-auto"}
                       width={"w-6"}
                       height={"h-6"}
@@ -1093,14 +1084,14 @@ export default function Home({ publications }) {
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/profileme.png"}
-                liveLink={"https://hosting.kytech.ca/"}
-                repoLink={"https://github.com/danielcranney/profileme.dev"}
+                imgSrc={"/projects/dashboard.png"}
+                liveLink={"https://kytech-hosting.pages.dev/dashboard"}
+                repoLink={null}
                 stack={
                   <>
                     <Icon
-                      IconType={Html}
-                      title="HTML"
+                      IconType={Supabase}
+                      title="Supabase"
                       columnSizing={"w-auto"}
                       width={"w-6"}
                       height={"h-6"}
@@ -1131,8 +1122,8 @@ export default function Home({ publications }) {
                     />
 
                     <Icon
-                      IconType={ReactJs}
-                      title="React"
+                      IconType={NextJs}
+                      title="NextJS"
                       columnSizing={"w-auto"}
                       width={"w-6"}
                       height={"h-6"}
@@ -1147,8 +1138,8 @@ export default function Home({ publications }) {
                     />
 
                     <Icon
-                      IconType={NextJs}
-                      title="Next"
+                      IconType={Figma}
+                      title="Figma"
                       columnSizing={"w-auto"}
                       width={"w-6"}
                       height={"h-6"}
