@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import ReactTypingEffect from "react-typing-effect";
-import headshot from "../public/headshot-avatar.png";
+import headshot from "../public/headshot-avatar.PNG";
 
 import Icon from "../components/Icon";
 // Icons
