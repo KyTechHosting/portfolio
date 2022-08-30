@@ -613,7 +613,7 @@ export default function Home({ publications }) {
                   />
                 </h2>
                 <p className="w-4/5 text-xl text-slate-400 md:w-full">
-                  I like to build solutions that exceed expectations! 🚀
+                  Helping devs to unlock their technical potential! 🚀
                 </p>
                 <button
                   className="mt-4 btn-brand btn-lg rounded-lg group"
@@ -638,28 +638,29 @@ export default function Home({ publications }) {
               <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
-                <div className="flex flex-col w-full md:pr-8 md:w-3/5">
-                  <p className="text-lg">
-                    Hello! I&apos;m Kyle and I&apos;m a frontend developer,
-                    dev advocate and educator from Toronto, Canada 🇨🇦.
+                <div className="flex flex-col w-full md:pr-8 md:w-3/5 ">
+                  <p className="text-lg text-slate-600">
+                    Hello! I&apos;m Kyle and I&apos;m a Developer Advocate, and
+                    educator from Toronto, Canada 🇨🇦.
                   </p>
-                  <p className="text-lg">
-                    After building my first website aged thirteen, I knew I
-                    wanted to work with computers and technology, and I&apos;ve
-                    never looked back.
+                  <p className="text-lg text-slate-600">
+                    I have always found my sweet spot lies between the technical
+                    and the non-technical pillars within a company. Briding the
+                    gap between these two traditional roles has been a passion
+                    of mine.
                   </p>
-                  <p className="text-lg">
+                  <p className="text-lg text-slate-600">
                     After graduating University with a Media degree, I began
                     freelancing as a designer, creating graphics, video content
                     and websites for small businesses, using content management
                     systems like Wordpress, Joomla and Squarespace.
                   </p>
-                  <p className="text-lg">
+                  <p className="text-lg text-slate-600">
                     In recent years, I&apos;ve been focused on programming,
                     building a solid frontend stack and creating exciting
                     projects that solve real-world problems.
                   </p>
-                  <p className="text-lg">
+                  <p className="text-lg text-slate-600">
                     Alongside my design and development work, I run a BA Media
                     Production degree course and a corporate video production
                     company called{" "}
@@ -673,7 +674,7 @@ export default function Home({ publications }) {
                     </a>
                     , so I like to keep busy!
                   </p>
-                  <p className="text-lg">
+                  <p className="text-lg text-slate-600">
                     Take a look at my work below to see what I&apos;m working
                     on, and get in touch if you&apos;d like to work together!
                   </p>
@@ -1165,7 +1166,7 @@ export default function Home({ publications }) {
               />
             </div>
 
-           {/* Other Projects header */}
+            {/* Other Projects header */}
             {/* <h2 className="text-4xl text-center">Other Projects</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 mx-auto border-0"></hr>
             <p className="mb-16 text-lg text-center">
