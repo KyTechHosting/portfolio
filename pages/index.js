@@ -614,7 +614,7 @@ export default function Home({ publications }) {
                   />
                 </h2>
                 <p className="w-4/5 text-xl text-slate-400 md:w-full">
-                  Helping devs to unlock their technical potential! 🚀
+                  Helping clients unlock their technical potential! 🚀
                 </p>
                 <button
                   className="mt-4 btn-brand btn-lg rounded-lg group"
