@@ -238,6 +238,7 @@ export default function Home({ publications }) {
             name="description"
             content="The portfolio of Web Dev and Dev Advocote, Kyle McCracken."
           />
+          <script defer data-domain="kylemccracken.io" src="https://stats.kytech.ca/js/script.js"></script>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
